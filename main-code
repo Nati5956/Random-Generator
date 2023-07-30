@@ -1,0 +1,13 @@
+import random
+for x in range (0, 20):
+	list = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+	
+	word = (random.choice(list)) + (random.choice(list)) + (random.choice(list)) + (random.choice(list)) + (random.choice(list))
+	word1 = (random.choice(list)) + (random.choice(list)) + (random.choice(list)) + (random.choice(list)) + (random.choice(list))
+	word2 = (random.choice(list)) + (random.choice(list)) + (random.choice(list)) + (random.choice(list)) + (random.choice(list))
+	word3 = (random.choice(list)) + (random.choice(list)) + (random.choice(list)) + (random.choice(list)) + (random.choice(list))
+	word4 = (random.choice(list)) + (random.choice(list)) + (random.choice(list)) + (random.choice(list)) + (random.choice(list))
+	word5 = (random.choice(list)) + (random.choice(list)) + (random.choice(list)) + (random.choice(list)) + (random.choice(list))
+	
+	sentence = word +  word1 +  word2 +  word3 +  word4  +  word5\
+	print (sentence)
